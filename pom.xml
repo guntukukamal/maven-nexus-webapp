@@ -26,12 +26,12 @@
    </repositories>
    <distributionManagement>
         <snapshotRepository>
-            <id>RaviSnapRepo</id>
-            <url>http://35.184.60.117:8081/nexus/content/repositories/RaviSnapRepo/</url>
+            <id>admin</id>
+            <url>http://104.196.99.183:8081/nexus/content/repositories/SnapshotRepo/</url>
         </snapshotRepository>
         <repository>
-            <id>RaviReleaseRepo</id>
-            <url>http://35.184.60.117:8081/nexus/content/repositories/RaviReleaseRepo/</url>
+            <id>admin</id>
+            <url>http://104.196.99.183:8081/nexus/content/repositories/ReleaseRepo/</url>
         </repository>
     </distributionManagement>
 </project>
